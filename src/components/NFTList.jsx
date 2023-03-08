@@ -5,7 +5,7 @@ import OpenInFullIcon from '@mui/icons-material/OpenInFull';
 
 const NFTList = ({ address }) => {
 
-    const [nfts, setNfts] = useState([{id: 1, image: 'https://i.seadn.io/gcs/files/50182b51b061766036ee3912a6117873.png?auto=format&w=500&h=500', name:'arty', description: 'lorem', owner: 'meowsykins', openseaLink: 'https://opensea.io/assets/ethereum/0x60e4d786628fea6478f785a6d7e704777c86a7c6/29822'}, {id: 2, image: 'https://files.readme.io/fdea1c5-sell-crypto-packs.png', name:'arty', description: 'my dbnsjkhdnskds', owner: 'meowsykins', openseaLink: 'https://opensea.io/assets/ethereum/0x60e4d786628fea6478f785a6d7e704777c86a7c6/29822'}]);
+    const [nfts, setNfts] = useState([]);
     const [selectedNft, setSelectedNft] = useState();
 
 
